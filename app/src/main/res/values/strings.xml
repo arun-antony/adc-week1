@@ -10,4 +10,8 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+    <string name="caption_image_courtesy">IMAGE COURTESY</string>
+    <string name="caption_location">LOCATION</string>
+    <string name="button_label_adopt_me">ADOPT ME</string>
+    <string name="label_app_name">Woof Woof</string>
 </resources>

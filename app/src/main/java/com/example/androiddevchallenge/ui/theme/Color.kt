@@ -19,5 +19,12 @@ import androidx.compose.ui.graphics.Color
 
 val purple200 = Color(0xFFBB86FC)
 val purple500 = Color(0xFF6200EE)
-val purple700 = Color(0xFF3700B3)
+val purple700 = Color(0xFF333333)
 val teal200 = Color(0xFF03DAC5)
+
+// Color Pallete
+val green = Color(0xFF999B84)
+val pink = Color(0xFFd8ac9c)
+val pastel = Color(0xFFefd9d1)
+val bright = Color(0xFFf4eeed)
+val grey = Color(0xFF333333)
