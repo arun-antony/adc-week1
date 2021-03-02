@@ -82,7 +82,7 @@ fun DetailPage(data: DogItem?, finishActivity: (() -> Unit)?) {
                         }
                     },
                     actions = {
-                        IconButton(onClick = {  }) {
+                        IconButton(onClick = { }) {
                             Icon(Icons.Filled.FavoriteBorder, null)
                         }
                     }
@@ -124,7 +124,8 @@ fun DetailContent(data: DogItem?) {
                         Image(
                             painter = painterResource(R.drawable.ic_baseline_broken_image_24),
                             null,
-                            alignment = Alignment.Center)
+                            alignment = Alignment.Center
+                        )
                     },
                     modifier = Modifier.constrainAs(image) {
                         top.linkTo(parent.top)

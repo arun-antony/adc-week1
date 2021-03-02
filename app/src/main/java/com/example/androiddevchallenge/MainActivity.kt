@@ -115,7 +115,7 @@ fun PetItemCard(it: DogItem, clicked: ((dogItem: DogItem) -> Unit)?) {
             color = Color.LightGray
         ) {
             CoilImage(
-                data = it.imageUrl ?:"",
+                data = it.imageUrl ?: "",
                 contentDescription = "",
                 fadeIn = true,
                 contentScale = ContentScale.Crop,
@@ -124,7 +124,8 @@ fun PetItemCard(it: DogItem, clicked: ((dogItem: DogItem) -> Unit)?) {
                     Image(
                         painter = painterResource(R.drawable.ic_baseline_broken_image_24),
                         null,
-                        alignment = Alignment.Center)
+                        alignment = Alignment.Center
+                    )
                 }
             )
         }
